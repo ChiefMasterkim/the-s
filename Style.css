@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(240, 41%, 73%);
+}
+.container{
+    padding: 2rem 4rem;
+}
+.container .contain{
+    padding: 1rem 20rem;
+}
+.header{
+    padding: 1rem 2rem;
+    text-align: center;
+    border: 1px solid white;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+.header .name{
+    color: white;
+    max-width: 12px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.score{
+    background-color: white;
+    padding:1rem 3rem;
+    border-radius: 0.5rem;
+}
+.score span{
+    width: 100%;
+    font-size: 1rem;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#score{
+    font-size: 1rem;
+}
+.over{
+    padding: 0 30%;
+}
+.hintcon{
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    filter: blur(0rem);
+}
+.game{
+    text-align: center;
+    padding: 2rem 0;
+    font-size: large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+#opponent-choice,#your-choice{
+    padding: 3rem;
+    background: rgb(248, 248, 244);
+    border-radius: 50%;
+}
+#choices{
+    padding: 4rem ;
+    text-align: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+    
+.container .contain{
+    padding: 1rem .3rem;
+}
+.header{
+    padding: 1rem 1rem;
+    text-align: center;
+    border: 1px solid white;
+    display: flex;
+    border-radius: .1rem;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.header .name{
+    color: white;
+    max-width: 12px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.score{
+    background-color: white;
+    padding:1rem 1rem;
+    border-radius: 0.5rem;
+}
+.score span{
+    width: 100%;
+    font-size: 1rem;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#score{
+    font-size: 1rem;
+}
+.over{
+    padding: 0 30%;
+}
+.hintcon{
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    filter: blur(0rem);
+}
+.game{
+    text-align: center;
+
+}
+#opponent-choice,#your-choice{
+    padding: 2rem;
+    background: rgb(250, 250, 240);
+
+}
+#choices{
+    padding: 1rem ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+}
